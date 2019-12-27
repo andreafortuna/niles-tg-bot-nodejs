@@ -8,9 +8,9 @@ bot.on('text', ({ replyWithHTML }) => {
     return replyWithHTML('<b>Hello</b>')
 })
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL
-
-bot.telegram.setWebhook(URL+'/webhook')
+const URL = process.env.URL+"/webhook"
+console.log ("Registering webhook:" + URL )
+bot.telegram.setWebhook(URL)
 
 bot.startWebhook('/webhook', null, PORT)
 
