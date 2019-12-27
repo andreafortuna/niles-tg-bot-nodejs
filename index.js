@@ -7,8 +7,9 @@ bot.on('text', ({ replyWithHTML }) => {
     console.log('Incoming');
     return replyWithHTML('<b>Hello</b>')
 })
+const PORT = process.env.PORT || 3000;
 
 bot.telegram.setWebhook('https://8129c606.ngrok.io/webhook')
 
-bot.startWebhook('/webhook', null, 5000)
+bot.startWebhook('/webhook', null, PORT)
 
