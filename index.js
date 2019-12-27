@@ -8,7 +8,7 @@ bot.on('text', ({ replyWithHTML }) => {
     return replyWithHTML('<b>Hello</b>')
 })
 const PORT = process.env.PORT || 3000;
-const URL = process.env.URL+"/webhook"
+const URL = "https://niles-tg-bot-nodejs.herokuapp.com/webhook"
 console.log ("Registering webhook:" + URL )
 bot.telegram.setWebhook(URL)
 
