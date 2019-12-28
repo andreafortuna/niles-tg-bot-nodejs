@@ -12,7 +12,7 @@ bot.on('text', ({ replyWithHTML }) => {
 })
 const PORT = process.env.PORT || 3000;
 //const URL = "https://agile-shelf-44940.herokuapp.com/webhook"
-const URL = process.env.BASE_URL + "/webhook"
+const URL = process.env.BASE_URL + "webhook"
 console.log ("Registering webhook:" + URL )
 bot.telegram.setWebhook(URL)
 
