@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const Telegraf = require('telegraf');
 const bot = new Telegraf("498078166:AAEnVj8LKnbmhFJM9brKVUb5E7KXfNMhjBU");
 
