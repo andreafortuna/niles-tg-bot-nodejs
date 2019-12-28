@@ -5,7 +5,7 @@ bot.command('image', (ctx) => ctx.replyWithPhoto({ url: 'https://picsum.photos/2
 
 bot.on('text', ({ replyWithHTML }) => {
     console.log('Incoming');
-    return replyWithHTML('<b>Hello</b>')
+    return replyWithHTML('<b>Ciao!</b>')
 })
 const PORT = process.env.PORT || 3000;
 const URL = "https://agile-shelf-44940.herokuapp.com/webhook"
