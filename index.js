@@ -1,9 +1,16 @@
 const Telegraf = require('telegraf');
 const bot = new Telegraf(process.env.TGTOKEN);
 
-bot.command('image', (ctx) => ctx.replyWithPhoto({ url: 'https://picsum.photos/200/300/?random' }))
-bot.command('test', (ctx) => ctx.replyWithHTML("TEST!"))
 
+bot.command('image', ({ replyWithHTML }) => {
+    console.log('IMAGE');
+    replyWithPhoto({ url: 'https://picsum.photos/200/300/?random' })
+})
+
+bot.command('test', ({ replyWithHTML }) => {
+    console.log('TEST');
+    return replyWithHTML('<b>TEST!</b>')
+})
 bot.on('text', ({ replyWithHTML }) => {
     console.log('Incoming');
     return replyWithHTML('<b>Ciao!</b>')
