@@ -4,7 +4,7 @@ const bot = new Telegraf(process.env.TGTOKEN);
 
 bot.command('image', ({ replyWithHTML }) => {
     console.log('IMAGE');
-    replyWithPhoto({ url: 'https://picsum.photos/200/300/?random' })
+    return replyWithPhoto({ url: 'https://picsum.photos/200/300/?random' })
 })
 
 bot.command('test', ({ replyWithHTML }) => {
