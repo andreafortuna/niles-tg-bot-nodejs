@@ -2,7 +2,7 @@ const Telegraf = require('telegraf');
 const bot = new Telegraf(process.env.TGTOKEN);
 
 
-bot.command('image', ({ replyWithHTML }) => {
+bot.command('image', ({ replyWithPhoto }) => {
     console.log('IMAGE');
     return replyWithPhoto({ url: 'https://picsum.photos/200/300/?random' })
 })
