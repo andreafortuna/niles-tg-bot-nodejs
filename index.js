@@ -3,7 +3,7 @@ const bot = new Telegraf(process.env.TGTOKEN);
 
 // Some sample commands...
 bot.start((ctx) => {
-    ctx.reply(`Hello ${ctx.message.from.username}`)
+    ctx.reply(`Hello ${ctx.message.from.firstname}`)
 })
 bot.help((ctx) => {
     ctx.reply("HELP MESSAGE...")
@@ -11,7 +11,7 @@ bot.help((ctx) => {
 
 
 bot.command('test', (ctx) => {
-    ctx.reply(`Hello ${ctx.message.from.username}, this is a TEST!`)
+    ctx.reply(`Hello ${ctx.message.from.firstname}, this is a TEST!`)
 })
 
 bot.command('image', ({ replyWithPhoto }) => {
