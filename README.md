@@ -12,7 +12,14 @@ Simple NodeJs telegram bot template, designed to run on PaaS (currently only wor
 ![Deploy](https://www.andreafortuna.org/wp-content/uploads/2020/01/niles.png)
 
 
-Customize the code on index.js, then start deploy.sh passing bot token as argument:
+
+First, clone the github repository <em>[<a href="#references">2</a>]</em>:</p>
+
+```
+git clone https://github.com/andreafortuna/niles-tg-bot-nodejs
+```
+
+Then customize the code on index.js and start deploy.sh passing bot token as argument:
 
 ```
 ./deploy.sh XXXXXXXXXXXXXXXXXXX
