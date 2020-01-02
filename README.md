@@ -1,6 +1,6 @@
 # Niles: telegram bot template for PaaS
 
-Simple NopdeJs telegram bot template, designed to run on PaaS (currently only on Heroku)
+Simple NodeJs telegram bot template, designed to run on PaaS (currently only on Heroku)
 
 ## Requisites
 
