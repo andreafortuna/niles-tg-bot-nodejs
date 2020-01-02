@@ -12,8 +12,7 @@ Simple NodeJs telegram bot template, designed to run on PaaS (currently only wor
 ![Deploy](https://www.andreafortuna.org/wp-content/uploads/2020/01/niles.png)
 
 
-
-First, clone the github repository <em>[<a href="#references">2</a>]</em>:</p>
+First, clone the github repository:
 
 ```
 git clone https://github.com/andreafortuna/niles-tg-bot-nodejs
