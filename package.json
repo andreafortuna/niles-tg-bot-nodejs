@@ -1,12 +1,16 @@
 {
   "name": "niles-tg-bot-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple NodeJs telegram bot template",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreafortuna/niles-tg-bot-nodejs"
+  },
+  "author": "Andrea Fortuna <andrea@andreafortuna.org> (https://www.andreafortuna.org)",
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.34.1"
