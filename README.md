@@ -9,6 +9,9 @@ Simple NodeJs telegram bot template, designed to run on PaaS (currently only on 
 
 ## How to use it
 
+![Deploy](https://www.andreafortuna.org/wp-content/uploads/2020/01/niles.png)
+
+
 Customize the code on index.js, then start deploy.sh passing bot token as argument:
 
 ```
