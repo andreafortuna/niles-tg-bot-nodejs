@@ -1,6 +1,9 @@
 const Telegraf = require('telegraf');
 const bot = new Telegraf(process.env.TGTOKEN);
 
+
+// Customize commands
+
 // Some sample commands...
 bot.start((ctx) => {
     ctx.reply(`Hello ${ctx.message.from.first_name} ${ctx.message.from.last_name}`)
