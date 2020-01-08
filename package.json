@@ -13,6 +13,6 @@
   "author": "Andrea Fortuna <andrea@andreafortuna.org> (https://www.andreafortuna.org)",
   "license": "ISC",
   "dependencies": {
-    "telegraf": "^3.34.1"
+    "telegraf": "^3.35.0"
   }
 }
